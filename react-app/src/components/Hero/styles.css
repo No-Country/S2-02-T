@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;800&display=swap');
+
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+h1{
+  font-family: 'Inter', sans-serif;
+  font-weight: 800;
+font-size: 72px;
+margin-top: 30px;
+margin-left: -250px;
+margin-bottom: 16px;
+
+}
+.hero__subtitle{
+  font-weight: 400;
+font-size: 18px;
+line-height: 32px;
+width: 540px;
+height: 64px;
+margin-left: 165px;
+}
+.hero__button{
+ width: 154px;
+ height: 48px;
+ padding: 12px 32px;
+ margin-left: 210px;
+cursor: pointer;
+ display: flex;
+ align-items: center;
+ color:white;
+ background-color: #131A45;
+ border-radius: 20px;
+ -webkit-border-radius: 20px;
+ -moz-border-radius: 20px;
+ -ms-border-radius: 20px;
+ -o-border-radius: 20px;
+}
