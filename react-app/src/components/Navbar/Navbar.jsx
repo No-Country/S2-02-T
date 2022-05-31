@@ -2,16 +2,26 @@ import "./Navbar.css";
 export default function Navbar() {
   return (
     <>
-      <header class="header">
-        <div class="header__container">
-          <div class="cuadrado"></div>
+      <header className="header">
+        <div className="header__container">
+          <div className="cuadrado"></div>
           <nav>
-            <ul class="unlistened">
-              <a href="">About</a>
-              <a href="">Services</a>
-              <a href="">Blog</a>
-              <a href="">Jobs</a>
-              <a href="">Contact</a>
+            <ul className="header__ul">
+              <a className="header__ul__a" href="">
+                About
+              </a>
+              <a className="header__ul__a" href="">
+                Services
+              </a>
+              <a className="header__ul__a" href="">
+                Blog
+              </a>
+              <a className="header__ul__a" href="">
+                Jobs
+              </a>
+              <a className="header__ul__a" href="">
+                Contact
+              </a>
             </ul>
           </nav>
         </div>
