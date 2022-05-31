@@ -18,16 +18,16 @@
     background: purple;
 }
 
-.unlistened {
+.header__ul {
     padding: 0;
     display: flex;
     gap: 32px;
 }
-a {
+.header__ul__a {
     text-decoration: none;
     color: purple;
 }
-a:hover { animation: azul 1s infinite; }
+.header__ul__a:hover { animation: azul 1s infinite; }
 @keyframes azul {
     50% {color: red}
     100% {color: pink}
