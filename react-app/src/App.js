@@ -1,14 +1,16 @@
    
-import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Cuerpo from './components/Cuerpo/Cuerpo';
-import Inicio from './components/Inicio/Inicio';
-import Login from './components/Login/Login';
-import Pie from './components/Pie/Pie';
-
+import logo from "./logo.svg";
+import "./App.css";
+import Navbar from "./components/Navbar/Navbar.jsx";
+import Footer from "./components/Footer/Footer.jsx";
+import Steps from "./components/Steps/Steps";
 function App() {
   return (
-    <><Cuerpo /><Inicio /><Login /><Pie name="Vane" /></>
+    <>
+      <Navbar />
+      <Steps />
+      <Footer />
+    </>
   );
 }
 
