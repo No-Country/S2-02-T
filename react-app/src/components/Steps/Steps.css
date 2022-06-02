@@ -1,33 +1,43 @@
 .steps-all-content-container {
-    display: grid;
-    grid-template-columns: 445px 635px;
-    gap: 24px;
+  display: grid;
+  padding: 20px;
+}
+@media (min-width: 1200px) {
+  .steps-all-content-container {
     justify-content: center;
+    padding: 0;
+    grid-template-columns: 445px 635px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    gap: 24px;
+  }
 }
 .steps-title-container {
-    font-size: 32px;
-    font-weight:800;
-    text-align: center;
+  margin: auto;
+  max-width: 510px;
+  font-size: 32px;
+  font-weight: 800;
+  text-align: center;
 }
 
 .steps-title-container__img {
-    width: 450px;
-    height: 450px
+  width: 450px;
+  height: 450px;
 }
 
 .steps-container {
-    box-sizing: border-box;
-    background: white;
-    display: flex;
-    align-items: center;
-    width: 100%;
-    padding: 48px;
-    gap: 48px;
-    color: black
+  margin: auto;
+  box-sizing: border-box;
+  background: #133250;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 635px;
+  padding: 48px;
+  gap: 48px;
+  color: white;
 }
-.steps-container:hover{
-    background: purple;
-    color: white;
-    transition: 1s;
+.steps-container:hover {
+  background: #203ae9;
+  transition: 1s;
 }
-
