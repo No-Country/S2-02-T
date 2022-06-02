@@ -3,12 +3,17 @@ import "./styles.css"
 const Hero = () => {
   return (  
     <>
-    <h1 className="hero__title">Landing page UI kit</h1>
-    <p className="hero__subtitle">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+    <div class="hero__container">
+    <h1 className="hero__title">Gastify App</h1>
+    <p className="hero__subtitle">La mejor calculadora para simular tus gastos. Facil y rapido!
     </p>
-    <div className="hero__button">Get Started</div>
+    <div className="hero__button">Probar</div>
     <div className="hero__image">
       <img  src="landing.png" alt="" />
+    </div>
+    <div className="hero__circle">
+    </div>
+
     </div>
     </>
   );
