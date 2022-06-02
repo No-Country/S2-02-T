@@ -7,21 +7,11 @@ export default function Navbar() {
           <div className="cuadrado"></div>
           <nav>
             <ul className="header__ul">
-              <a className="header__ul__a" href="">
-                About
-              </a>
-              <a className="header__ul__a" href="">
-                Services
-              </a>
-              <a className="header__ul__a" href="">
-                Blog
-              </a>
-              <a className="header__ul__a" href="">
-                Jobs
-              </a>
-              <a className="header__ul__a" href="">
-                Contact
-              </a>
+              <a className="header__ul__a" href="">About</a>
+              <a className="header__ul__a" href="">Services</a>
+              <a className="header__ul__a" href="">Blog</a>
+              <a className="header__ul__a" href="">Jobs</a>
+              <a className="header__ul__a" href="">Contact</a>
             </ul>
           </nav>
         </div>
