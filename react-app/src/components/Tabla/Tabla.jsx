@@ -4,8 +4,8 @@ export class Inicio extends Component {
     render() {
         return (
             <>
-            <div>
-                <table border="2">
+            <div class="container">
+                <table class="">
                     <tbody>
                         <tr>
                             <th>Id</th>
