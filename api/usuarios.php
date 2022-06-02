@@ -14,5 +14,6 @@
     include("dbml.php");
     $dbml = new dbManager("usuarios","id");
     $dbml->select();
-    print_r($dbml->getArray());
+    $Json = json_encode($dbml->getArray());
+    print_r($Json);
 ?>

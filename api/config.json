@@ -1,6 +1,6 @@
 {
     "server":"localhost",
-    "db_name":"usuarios",
+    "db_name":"midb",
     "user":"root",
     "pass":""
 }
