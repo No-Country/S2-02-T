@@ -20,10 +20,35 @@
   background: white;
 }
 
+.header__close-menu {
+    /* CERRAR MENU CORREGIR ICONO Y APLICAR EL EFECTO DE CERRADO */
+  top: 16px;
+  right: 40px;
+  z-index: 10;
+  position: absolute;
+  cursor: pointer;
+  display: none;
+  display: initial;
+  width: 40px;
+  height: 40px;
+}
 .header__ul {
   padding: 0;
   display: flex;
   gap: 32px;
+}
+.header__ul--hamburguesa {
+  background: rgba(32, 58, 233, 0.9);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 .header__ul__a {
   text-decoration: none;
@@ -31,4 +56,12 @@
 }
 .header__ul__a:hover {
   text-decoration: underline;
+}
+
+.header-menu-hmbgs {
+  cursor: pointer;
+  display: none;
+  display: initial;
+  width: 40px;
+  height: 40px;
 }
