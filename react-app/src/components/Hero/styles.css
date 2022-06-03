@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;800&display=swap');
+
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.hero__container{
+margin-left: -4rem;
+}
+.hero__title{
+  font-family: 'Inter', sans-serif;
+  font-weight: 800;
+font-size: 72px;
+margin-top: 15rem;
+color: black;
+margin-left: 10rem;
+/* margin-left: -600px; */
+margin-bottom: 16px;
+
+}
+.hero__subtitle{
+   font-family: 'Inter', sans-serif;
+  font-weight: 400;
+font-size: 18px;
+line-height: 32px;
+width: 540px;
+height: 64px;
+margin-left: 10rem;
+}
+.hero__button{
+ width: 100px;
+ height: 48px;
+ padding: 10px 25px;
+ margin-left: 10rem;
+cursor: pointer;
+ display: flex;
+ align-items: center;
+ color:white;
+ background-color: #131A45;
+ border-radius: 20px;
+ -webkit-border-radius: 20px;
+ -moz-border-radius: 20px;
+ -ms-border-radius: 20px;
+ -o-border-radius: 20px;
+}
+.hero__circle{
+  width: 640px;
+  height: 640px;
+  position: relative;
+  background-color: #131A45;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  transform: translate(45rem, -25rem);
+  -webkit-transform: translate(45rem, -25rem);
+  -moz-transform: translate(45rem, -25rem);
+  -ms-transform: translate(45rem, -25rem);
+  -o-transform: translate(45rem, -25rem);
+  z-index: -1;
+  
+}
+.hero__button:hover{
+  background-color: #203AE9;
+  transition: ease-in .5s;
+  -webkit-transition: ease-in .5s;
+  -moz-transition: ease-in .5s;
+  -ms-transition: ease-in .5s;
+  -o-transition: ease-in .5s;
+}
+.hero__image{
+  width: 100%;
+  position: absolute;
+  transform: translate(51rem, -20rem);
+  -webkit-transform: translate(51rem, -20rem);
+  -moz-transform: translate(51rem, -20rem);
+  -ms-transform: translate(51rem, -20rem);
+  -o-transform: translate(51rem, -20rem);
+  z-index: 100;
+  border-radius: 40px ;
+  -webkit-border-radius: 40px ;
+  -moz-border-radius: 40px ;
+  -ms-border-radius: 40px ;
+  -o-border-radius: 40px ;
+}
+/* @media screen and (min-width:320px) { */
+  /* .hero__title{
+font-size: 35px;
+margin-right: -230px; */
+/*     
+  }
+} */
+/* @media  screen and (min-width:768px) {
+  .notebook{
+  margin: 400px auto;
+    
+  }
+}
+@media  screen and (min-width:1280px) {
+  .notebook{
+  margin: 100px auto;
+    
+  }
+} */
