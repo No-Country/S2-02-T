@@ -59,7 +59,14 @@ cursor: pointer;
   -o-transform: translate(45rem, -25rem);
   z-index: -1;
 }
-
+.hero__button:hover{
+  background-color: #203AE9;
+  transition: ease-in .5s;
+  -webkit-transition: ease-in .5s;
+  -moz-transition: ease-in .5s;
+  -ms-transition: ease-in .5s;
+  -o-transition: ease-in .5s;
+}
 .hero__image{
   width: 100%;
   position: absolute;
@@ -74,7 +81,7 @@ cursor: pointer;
   -moz-border-radius: 40px ;
   -ms-border-radius: 40px ;
   -o-border-radius: 40px ;
-  overflow: hidden;
+  
 }
 /* @media screen and (min-width:320px) { */
   /* .hero__title{
@@ -83,7 +90,7 @@ margin-right: -230px; */
 /*     
   }
 } */
-@media  screen and (min-width:768px) {
+/* @media  screen and (min-width:768px) {
   .notebook{
   margin: 400px auto;
     
@@ -94,4 +101,4 @@ margin-right: -230px; */
   margin: 100px auto;
     
   }
-}
+} */
