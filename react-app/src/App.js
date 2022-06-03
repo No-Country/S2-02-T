@@ -10,6 +10,9 @@ function App() {
       <Navbar />
       <Steps />
       <Footer />
+      <div>
+        crear db
+      </div>
     </>
   );
 }
