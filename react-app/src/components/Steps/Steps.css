@@ -1,0 +1,33 @@
+.steps-all-content-container {
+    display: grid;
+    grid-template-columns: 445px 635px;
+    gap: 24px;
+    justify-content: center;
+}
+.steps-title-container {
+    font-size: 32px;
+    font-weight:800;
+    text-align: center;
+}
+
+.steps-title-container__img {
+    width: 450px;
+    height: 450px
+}
+
+.steps-container {
+    box-sizing: border-box;
+    background: white;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 48px;
+    gap: 48px;
+    color: black
+}
+.steps-container:hover{
+    background: purple;
+    color: white;
+    transition: 1s;
+}
+

@@ -1,0 +1,43 @@
+{
+
+    "students": [
+  
+      {
+  
+        "name": "Dert",
+  
+        "age": "22",
+  
+        "department": "Information Technology",
+  
+        "rollno": "123"
+  
+      },
+  
+      {
+  
+        "name": "Juan",
+  
+        "age": "21",
+  
+        "department": "Computer Engineering",
+  
+        "rollno": "456"
+  
+      },
+  
+      {
+  
+        "name": "Student 3",
+  
+        "age": "23",
+  
+        "department": "Information Technology",
+  
+        "rollno": "789"
+  
+      }
+  
+    ]
+  
+  }
