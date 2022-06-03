@@ -10,6 +10,7 @@ function App() {
       <Navbar />
       <Steps />
       <Footer />
+      <div>Limon</div>
     </>
   );
 }
