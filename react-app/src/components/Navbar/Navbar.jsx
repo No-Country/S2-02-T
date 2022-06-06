@@ -1,7 +1,8 @@
 import React from "react";
 import "./Navbar.css";
-import { vaciarRoot } from "./Navbar-functions";
-import menuImg from "../imgs/menu-hmbgs.svg";
+// import { vaciarRoot } from "./Navbar-functions";
+import menuImg from "../imgs/circulo-temp.svg";
+
 export default class Navbar extends React.Component{
   constructor () {
     super();
