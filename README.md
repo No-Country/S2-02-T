@@ -7,11 +7,11 @@ Equipo S2-02-T
   <br>
   Julian: FrontEnd
   <br>
-  Orlando: *
+  Orlando: Backend
   <br>
   Richard: FrontEnd
   <br>
-  Paulo Nievas: *
+  Paulo Nievas: Backend
   <br>
-  Nico: *
+  Nico: FrontEnd
 </p>
