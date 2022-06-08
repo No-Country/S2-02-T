@@ -1,12 +1,10 @@
 import React from "react";
 import "./Navbar.css";
-import { vaciarRoot } from "./Navbar-functions";
+//import { vaciarRoot } from "./Navbar-functions";
 import menuImg from "../imgs/menu-hmbgs.svg";
 
 export default class Navbar extends React.Component{
-  constructor () {
-    super();
-  }
+  
   componentDidMount() {
     const root = window.document.getElementById("root");
     root.querySelector(".header-menu-hmbgs").addEventListener("click", () => {

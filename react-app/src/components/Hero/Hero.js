@@ -3,7 +3,7 @@ import "./styles.css"
 const Hero = () => {
   return (  
     <>
-    <div class="hero__container">
+    <div className="hero__container">
     <h1 className="hero__title">Gastify App</h1>
     <p className="hero__subtitle">La mejor calculadora para simular tus gastos. Facil y rápido!
     </p>
