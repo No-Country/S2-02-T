@@ -1,0 +1,53 @@
+.calc-container {
+  display: flex;
+  gap: 20px;
+}
+.calc-form-mip {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+.calc-form-mip input {
+  width: 100%;
+  font-size: 32px;
+}
+.calc-form-mip__pea {
+  display: flex;
+}
+
+.calc-container__results-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.calc-container__results {
+  gap: 20px;
+  display: flex;
+}
+.calc-container__result-r {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+.calc-container__result-r-img {
+  width: 80px;
+}
+.calc-container__result-r__m {
+  background: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+
+.display--flex {
+  display: flex;
+}
+.f-dir-column {
+  flex-direction: column;
+}
+.align--center {
+  align-items: center;
+}
