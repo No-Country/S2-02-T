@@ -38,7 +38,7 @@ cursor: pointer;
  display: flex;
  align-items: center;
  color:white;
- background-color: #131A45;
+ background-color: #133250;
  border-radius: 20px;
  -webkit-border-radius: 20px;
  -moz-border-radius: 20px;
@@ -46,10 +46,10 @@ cursor: pointer;
  -o-border-radius: 20px;
 }
 .hero__circle{
-  width: 640px;
+  width: 680px;
   height: 640px;
   position: relative;
-  background-color: #131A45;
+  background-color: #133250;
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -74,17 +74,23 @@ cursor: pointer;
 .hero__image{
   width: 100%;
   position: absolute;
-  transform: translate(51rem, -20rem);
-  -webkit-transform: translate(51rem, -20rem);
-  -moz-transform: translate(51rem, -20rem);
-  -ms-transform: translate(51rem, -20rem);
-  -o-transform: translate(51rem, -20rem);
+  transform: translate(51rem, -19rem);
+  -webkit-transform: translate(51rem, -19rem);
+  -moz-transform: translate(51rem, -19rem);
+  -ms-transform: translate(51rem, -19rem);
+  -o-transform: translate(51rem, -19rem);
   z-index: 100;
-  border-radius: 40px ;
-  -webkit-border-radius: 40px ;
-  -moz-border-radius: 40px ;
-  -ms-border-radius: 40px ;
-  -o-border-radius: 40px ;
+
+}
+.hero__calculator{
+    width: 35%;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 10%;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    -ms-border-radius: 10%;
+    -o-border-radius: 10%;
 }
 /* @media screen and (min-width:320px) { */
   /* .hero__title{
