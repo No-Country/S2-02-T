@@ -63,6 +63,56 @@ cursor: pointer;
   z-index: -1;
   
 }
+.hero__circle--turquoise{
+   position: relative;
+   width: 72px;
+   height: 72px;
+   background-color:#75E3EA;
+   border-radius: 50%;
+   -webkit-border-radius: 50%;
+   -moz-border-radius: 50%;
+   -ms-border-radius: 50%;
+   -o-border-radius: 50%;
+   transform: translate(45rem,-30rem);
+   -webkit-transform: translate(45rem,-30rem);
+   -moz-transform: translate(45rem,-30rem);
+   -ms-transform: translate(45rem,-30rem);
+   -o-transform: translate(45rem,-30rem);
+}
+.hero__circle--yellow{
+  position: relative;
+  width: 72px;
+  height: 72px;
+  background-color:#FFC278;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  z-index: -10;
+  transform: translate(25rem,-35rem);
+  -webkit-transform: translate(25rem,-35rem);
+  -moz-transform: translate(25rem,-35rem);
+  -ms-transform: translate(25rem,-35rem);
+  -o-transform: translate(25rem,-35rem);
+}
+.hero__circle--lightblue{
+  position: relative;
+  width: 72px;
+  height: 72px;
+  background-color:#203AE9;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  z-index: -10;
+  transform: translate(15rem,-25rem);
+  -webkit-transform: translate(15rem,-25rem);
+  -moz-transform: translate(15rem,-25rem);
+  -ms-transform: translate(15rem,-25rem);
+  -o-transform: translate(15rem,-25rem);
+}
 .hero__button:hover{
   background-color: #203AE9;
   transition: ease-in .5s;
@@ -74,6 +124,7 @@ cursor: pointer;
 .hero__image{
   width: 100%;
   position: absolute;
+ 
   transform: translate(51rem, -19rem);
   -webkit-transform: translate(51rem, -19rem);
   -moz-transform: translate(51rem, -19rem);
@@ -86,11 +137,11 @@ cursor: pointer;
     width: 35%;
     height: 450px;
     object-fit: cover;
-    border-radius: 10%;
-    -webkit-border-radius: 10%;
-    -moz-border-radius: 10%;
-    -ms-border-radius: 10%;
-    -o-border-radius: 10%;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
 }
 /* @media screen and (min-width:320px) { */
   /* .hero__title{
