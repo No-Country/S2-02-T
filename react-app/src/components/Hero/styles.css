@@ -4,7 +4,6 @@
   margin: 0;
   box-sizing: border-box;
 }
-
 .hero__container{
 margin-left: -4rem;
 margin-bottom: -21rem;
@@ -16,9 +15,7 @@ font-size: 72px;
 margin-top: 15rem;
 color: black;
 margin-left: 10rem;
-/* margin-left: -600px; */
 margin-bottom: 16px;
-
 }
 .hero__subtitle{
    font-family: 'Inter', sans-serif;
@@ -61,7 +58,6 @@ cursor: pointer;
   -ms-transform: translate(45rem, -25rem);
   -o-transform: translate(45rem, -25rem);
   z-index: -1;
-  
 }
 .hero__circle--turquoise{
    position: relative;
@@ -124,14 +120,12 @@ cursor: pointer;
 .hero__image{
   width: 100%;
   position: absolute;
- 
   transform: translate(51rem, -19rem);
   -webkit-transform: translate(51rem, -19rem);
   -moz-transform: translate(51rem, -19rem);
   -ms-transform: translate(51rem, -19rem);
   -o-transform: translate(51rem, -19rem);
   z-index: 100;
-
 }
 .hero__calculator{
     width: 35%;

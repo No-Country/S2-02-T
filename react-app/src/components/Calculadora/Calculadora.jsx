@@ -1,6 +1,8 @@
 import React from "react";
 import "./Calculadora.css";
 
+
+
 export default class Calculadora extends React.Component {
   componentDidMount() {}
   render() {
@@ -38,32 +40,19 @@ export default class Calculadora extends React.Component {
               <div className="calc-container__results">
                 <div className="calc-container__result-r">
                   <span>Pago mensual</span>
-                  <img
-                    src="money_billete.svg"
-                    alt=""
-                    className="calc-container__result-r-img"
-                  />
+                  <img src="calendar.svg" alt="" className="calc-container__result-r-img" />
                   <span className="calc-container__result-r__m">$482.02</span>
                 </div>
                 <div className="calc-container__result-r">
                   <span>Intereses totales</span>
-                  <img
-                    src="money_billete.svg"
-                    alt=""
-                    className="calc-container__result-r-img"
-                  />
+                  <img src="coins.svg" alt="" className="calc-container__result-r-img" />
+                
                   <span className="calc-container__result-r__m">$1568.50</span>
                 </div>
                 <div className="calc-container__result-r">
                   <span>Pago total</span>
-                  <img
-                    src="money_billete.svg"
-                    alt=""
-                    className="calc-container__result-r-img"
-                  />
-                  <span className="calc-container__result-r__m">
-                    $11,568.50
-                  </span>
+                  <img src="money.svg" alt="" className="calc-container__result-r-img" />
+                  <span className="calc-container__result-r__m">$11,568.50</span>
                 </div>
               </div>
             </div>
