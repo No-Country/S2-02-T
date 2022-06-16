@@ -13,12 +13,14 @@
   }
 }
 .steps-title-container {
-  margin: auto;
-  max-width: 510px;
-  font-size: 32px;
-  font-weight: 800;
-  text-align: center;
+    margin: auto;
+    max-width: 510px;
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    margin-left: -3rem;
 }
+
 
 .steps-title-container__img {
   width: 450px;
