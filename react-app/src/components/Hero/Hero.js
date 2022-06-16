@@ -11,9 +11,6 @@ const Hero = () => {
           <img className="hero__calculator" src="calcu-money.jpeg" alt="" />
         </div>
         <div className="hero__circle"></div>
-        <div className="hero__circle hero__circle--yellow"></div>
-        <div className="hero__circle hero__circle--turquoise"></div>
-        <div className="hero__circle hero__circle--lightblue"></div>
       </div>
     </>
   );
