@@ -1,18 +1,17 @@
 import "./App.css";
-import Navbar from "./components/Navbar/Navbar.jsx";
-import Footer from "./components/Footer/Footer.jsx";
-import Hero from "./components/Hero/Hero";
-import Steps from "./components/Steps/Steps";
-import Calculadora from "./components/Calculadora/Calculadora";
+import Homepage from "./pages/Homepage/Homepage";
+import SobreNosotros from "./pages/SobreNosotros/SobreNosotros";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <>
-      <Navbar />
-      <Hero />
-      <Steps />
-      <Calculadora />
-      <Footer />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Homepage />} />
+          <Route path="/sobreNosotros" element={<SobreNosotros />} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }
