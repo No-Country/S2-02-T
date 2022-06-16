@@ -18,7 +18,7 @@ export default class Navbar extends React.Component {
                 <a className="header__ul__a" href="">
                   Algo más
                 </a>
-                <a className="header__ul__a" href="">
+                <a className="header__ul__a" href="/sobreNosotros" target="_blank">
                   Sobre mi
                 </a>
               </ul>

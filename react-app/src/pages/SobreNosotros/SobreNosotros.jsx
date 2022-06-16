@@ -1,7 +1,10 @@
-export default function SobreNosotros() {
+import SobreNosotros from '../../components/SobreNosotros/SobreNosotros.jsx'
+
+export default function SobreNosotrosPage() {
   return (
     <>
-      <h1>2323</h1>
+      
+      <SobreNosotros />
     </>
   );
 }
