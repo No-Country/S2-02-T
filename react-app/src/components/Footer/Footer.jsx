@@ -9,13 +9,13 @@ export default function Footer() {
               <a className="footer__ul__a" href="">
                 Calculadora
               </a>
-              <a className="footer__ul__a" href="/sobreNosotros">
+              <a className="footer__ul__a" href="/sobreNosotros" target="_blank">
                 Sobre Nosotros
               </a>
             </ul>
           </nav>
           <div className="copyright-text-container">
-            <span>© 2020 No Country Devs</span>
+            <span>© 2022 No Country Devs - Equipo S2-02-T</span>
           </div>
         </div>
       </footer>
