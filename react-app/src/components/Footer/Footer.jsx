@@ -9,7 +9,7 @@ export default function Footer() {
               <a className="footer__ul__a" href="">
                 Calculadora
               </a>
-              <a className="footer__ul__a" href="">
+              <a className="footer__ul__a" href="/sobreNosotros">
                 Sobre Nosotros
               </a>
             </ul>
