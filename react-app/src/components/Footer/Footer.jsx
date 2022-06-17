@@ -7,22 +7,10 @@ export default function Footer() {
           <nav>
             <ul className="footer__ul">
               <a className="footer__ul__a" href="">
-                About
+                Calculadora
               </a>
               <a className="footer__ul__a" href="">
-                Features
-              </a>
-              <a className="footer__ul__a" href="">
-                Pricing
-              </a>
-              <a className="footer__ul__a" href="">
-                Careers
-              </a>
-              <a className="footer__ul__a" href="">
-                Help
-              </a>
-              <a className="footer__ul__a" href="">
-                Privacy Policy
+                Sobre Nosotros
               </a>
             </ul>
           </nav>
