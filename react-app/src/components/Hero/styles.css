@@ -41,6 +41,7 @@ cursor: pointer;
  -moz-border-radius: 20px;
  -ms-border-radius: 20px;
  -o-border-radius: 20px;
+ text-decoration: none;
 }
 .hero__circle{
   width: 680px;
@@ -59,56 +60,7 @@ cursor: pointer;
   -o-transform: translate(45rem, -25rem);
   z-index: -1;
 }
-.hero__circle--turquoise{
-   position: relative;
-   width: 72px;
-   height: 72px;
-   background-color:#75E3EA;
-   border-radius: 50%;
-   -webkit-border-radius: 50%;
-   -moz-border-radius: 50%;
-   -ms-border-radius: 50%;
-   -o-border-radius: 50%;
-   transform: translate(45rem,-30rem);
-   -webkit-transform: translate(45rem,-30rem);
-   -moz-transform: translate(45rem,-30rem);
-   -ms-transform: translate(45rem,-30rem);
-   -o-transform: translate(45rem,-30rem);
-}
-.hero__circle--yellow{
-  position: relative;
-  width: 72px;
-  height: 72px;
-  background-color:#FFC278;
-  border-radius: 50%;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
-  z-index: -10;
-  transform: translate(25rem,-35rem);
-  -webkit-transform: translate(25rem,-35rem);
-  -moz-transform: translate(25rem,-35rem);
-  -ms-transform: translate(25rem,-35rem);
-  -o-transform: translate(25rem,-35rem);
-}
-.hero__circle--lightblue{
-  position: relative;
-  width: 72px;
-  height: 72px;
-  background-color:#203AE9;
-  border-radius: 50%;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
-  z-index: -10;
-  transform: translate(15rem,-25rem);
-  -webkit-transform: translate(15rem,-25rem);
-  -moz-transform: translate(15rem,-25rem);
-  -ms-transform: translate(15rem,-25rem);
-  -o-transform: translate(15rem,-25rem);
-}
+
 .hero__button:hover{
   background-color: #203AE9;
   transition: ease-in .5s;
@@ -116,6 +68,8 @@ cursor: pointer;
   -moz-transition: ease-in .5s;
   -ms-transition: ease-in .5s;
   -o-transition: ease-in .5s;
+  color: #fff;
+  font-weight: bold;
 }
 .hero__image{
   width: 100%;
