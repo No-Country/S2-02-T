@@ -1,6 +1,7 @@
 .steps-all-content-container {
   display: grid;
   padding: 20px;
+  gap: 20px;
 }
 @media (min-width: 1200px) {
   .steps-all-content-container {
@@ -13,20 +14,23 @@
   }
 }
 .steps-title-container {
-    margin: auto;
-    max-width: 510px;
-    font-size: 32px;
-    font-weight: 800;
-    text-align: center;
-    margin-left: -3rem;
+  margin: auto;
+  max-width: 510px;
+  font-size: 32px;
+  font-weight: 800;
+  text-align: center;
+  /* margin-left: -3rem; */
 }
-
 
 .steps-title-container__img {
   width: 450px;
   height: 100%;
 }
-
+@media (max-width: 1200px) {
+  .steps-title-container__img {
+    width: 100%;
+  }
+}
 .steps-container {
   margin: auto;
   box-sizing: border-box;
