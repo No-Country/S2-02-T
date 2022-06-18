@@ -1,4 +1,4 @@
-<h1 align="center">Digital Finace</h1>
+<h1 align="center">Digital Finance</h1>
 
 <h2 align="center"> Landing page para un banco donde ofrece servicios financieros</h2>
 
