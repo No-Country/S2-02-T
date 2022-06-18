@@ -7,7 +7,7 @@ class Calculadora extends React.Component {
       <>
         <div className="display--flex f-dir-column align--center">
           <div>
-            <h1>Calculadora de amortización de crédito</h1>
+            <h1 className="calc-general-title">Calculadora de amortización de crédito</h1>
           </div>
           {/*Inputs o formulario */}
           <div className="calc-container">
