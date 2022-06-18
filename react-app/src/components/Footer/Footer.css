@@ -22,6 +22,7 @@
 .footer__ul__a {
   text-decoration: none;
   color: white;
+      padding-right: 20px;
 }
 .footer__ul__a:hover {
   color: aqua;
