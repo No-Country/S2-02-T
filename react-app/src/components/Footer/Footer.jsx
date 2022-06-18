@@ -6,7 +6,7 @@ export default function Footer() {
         <div className="footer__container">
           <nav>
             <ul className="footer__ul">
-              <a className="footer__ul__a" href="">
+              <a className="footer__ul__a" href="#calculadora">
                 Calculadora
               </a>
               <a className="footer__ul__a" href="/sobreNosotros" target="_blank">

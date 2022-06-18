@@ -5,7 +5,7 @@ class Calculadora extends React.Component {
   render() {
     return (
       <>
-        <div className="display--flex f-dir-column align--center">
+        <div className="display--flex f-dir-column align--center" id="calculadora">
           <div>
             <h1 className="calc-general-title">Calculadora de amortización de crédito</h1>
           </div>
