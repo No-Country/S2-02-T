@@ -4,19 +4,19 @@ import calculadoraPng from "../imgs/calculadora.png";
 export default function Steps() {
   const steps = [
     {
-      stepNumber: "STEP 1",
+      stepNumber: "PASO 1",
       textcontent:
-        "Download and install the app from play store or app store. The app will guide you through the configuration process. Live support is available to help you.",
+        "Primero colocas el monto del credito que necesitas.",
     },
     {
-      stepNumber: "STEP 2",
+      stepNumber: "PASO 2",
       textcontent:
-        "Connect the device anywhere your home and turn it on. Then follow the guide given by the app to configure. Make sure your home WiFi is working well.",
+        "Colocas la taza de interes anual que se aplicara.",
     },
     {
-      stepNumber: "STEP 3",
+      stepNumber: "PASO 3",
       textcontent:
-        "After the configuration process is completed as per the app guide, you will be able to control your home applicance from anywhere remotely.",
+        "Por ultimo colocas el tiempo en años del credito, y listo! ya podes visualizar los importes de manera automatica y rapida! ",
     },
   ];
   function addSteps() {
@@ -39,12 +39,11 @@ export default function Steps() {
   return (
     <div className="steps-all-content-container">
       <div className="steps-title-container">
-        <h2>Install the device few easy steps</h2>
+        
         <img
           className="steps-title-container__img"
-          src={calculadoraPng}
+          src="note_calc_manos.jpg"
           alt=""
-          width="96px"
         />
       </div>
       <div>{addSteps()}</div>
