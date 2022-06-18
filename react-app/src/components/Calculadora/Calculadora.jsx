@@ -76,6 +76,7 @@ class Calculadora extends React.Component {
               </div>
             </div>
           </div>
+          <br /><br /><br />
         </div>
       </>
     );

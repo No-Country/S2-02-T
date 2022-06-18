@@ -9,17 +9,16 @@ export default class Navbar extends React.Component {
       <>
         <header className="header">
           <div className="header__container">
-            <div className="cuadrado"></div>
+            <div>
+              <img src="dinero.png" alt="" />
+            </div>
             <nav>
               <ul className="header__ul">
                 <a className="header__ul__a" href="">
                   Calculadora
                 </a>
-                <a className="header__ul__a" href="">
-                  Algo más
-                </a>
-                <a className="header__ul__a" href="">
-                  Sobre mi
+                <a className="header__ul__a" href="/sobreNosotros" target="_blank">
+                  Sobre nosotros
                 </a>
               </ul>
             </nav>
