@@ -1,17 +1,21 @@
-<h1 align="center">Título del proyecto</h1>
-Equipo S2-02-T
+<h1 align="center">Digital Finance</h1>
 
-<h3 align="left">Roles:</h3>
-<p align="left">
-  Dert: Backend
+<h2 align="center"> Landing page para un banco donde ofrece servicios financieros</h2>
+
+<h3 align="center">Roles:</h3>
+<p align="center">
+  Oscar Ruiz: Backend
   <br>
-  Julian: FrontEnd
+  Orlando Neris: Backend
   <br>
-  Orlando: Backend
+   Paulo Nievas: Backend
   <br>
-  Richard: FrontEnd
+  Richard Irala: FrontEnd
   <br>
-  Paulo Nievas: Backend
+  Julian Perna: FrontEnd
   <br>
-  Nico: FrontEnd
+  Nicolas Orecchia: FrontEnd
 </p>
+<p align="center"> Equipo S2-02-T No Country </p>
+
+<h4 align="center">Deploy: https://digitalfinance.netlify.app/ </h4>
