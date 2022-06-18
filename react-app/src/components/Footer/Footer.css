@@ -1,30 +1,32 @@
 .footer {
-    width: 100vw;
-    background: black;
-    padding: 16px 0;
+  width: 100vw;
+  background: black;
+  padding: 16px 0;
 }
 
 .footer__container {
-    width: 80%;
-    display: flex;
-    margin: auto;
-    justify-content: space-between;
-    height: auto;
-    align-items: center;
+  width: 80%;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  height: auto;
+  align-items: center;
 }
 
 .footer__ul {
-    padding: 0;
-    display: flex;
-    gap: 32px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 32px;
 }
 .footer__ul__a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
-.footer__ul__a:hover { color: aqua }
-
+.footer__ul__a:hover {
+  color: aqua;
+}
 
 .copyright-text-container {
-    color: white
+  color: white;
 }
